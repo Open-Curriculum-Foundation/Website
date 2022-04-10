@@ -1,0 +1,206 @@
+{
+	"subjects": [
+		{
+			"name": "Blockchain",
+			"links": [
+				"https://www.youtube.com/watch?v=M576WGiDBdQ",
+				"https://www.youtube.com/watch?v=coQ5dg8wM2o"
+			],
+			"objectives": "Blockchain objectives",
+			"outcomes": "Blockchain Outcomes",
+			"credits": 3,
+			"chapters": [
+				{
+					"name": "Solidity",
+					"links": [
+						"https://www.youtube.com/watch?v=ipwxYa-F1uY",
+						"https://www.youtube.com/watch?v=kdvVwGrV7ec"
+					],
+					"description": "Introduction to Solidity, what is solidity?, where is solidity used?",
+					"duration": 8,
+					"level": "Basic"
+				}
+			]
+		},
+		{
+			"name": "Artificial Intelligence and Machine Learning",
+			"links": [],
+			"credits": 3,
+			"objectives": "Artificial Intelligence and Machine Learning Objectives",
+			"outcomes": "Artificial Intelligence and Machine Learning Outcomes",
+			"chapters": [
+				{
+					"name": "Introduction to Artificial Intelligence",
+					"links": [],
+					"description": "Introduction, what is AI, Strong Methods and weak Methods. \nUses and Limitations: Knowledge Representation: Need for good representation, semantic nets, Frames, , Search Spaces, Semantics Tress, Search Trees, Combinatorial Explosion, Problem reduction, Goal Trees, Combinatorial Explosion \nSelf-learning topics: Inheritance, Object oriented programming",
+					"duration": 8,
+					"level": "Advanced"
+				},
+				{
+					"name": "Search Methodologies",
+					"links": [],
+					"description": "Introduction, Problem solving as search, Data driven or goal driven search, Generate and test, Properties of search methods, Depth First Iterative Deepening, Using Heuristics for Search, Hill Climbing, Best-First Search, Identifying Optimal Paths, Constraint Satisfaction search, Forward Checking, Local Search and Meta heuristics, Simulated Annealing. Genetic Algorithms for search, Real time A*, Bidirectional search, Nondeterministic search, non-chronological backtracking\nSelf-learning topics: Depth First Search, Breadth First Search, Implementing Depth-First and Breadth-First Search",
+					"duration": 8,
+					"level": "Advanced"
+				},
+				{
+					"name": "Game Playing",
+					"links": [],
+					"description": "Game Trees, Minimax, Alpha beta pruning \nPrepositional and Predicate Logic: Introduction, what is Logic, Why Logic is used in Artificial Intelligence, Logical Operators, translating between English and Logic Notation, The deduction Theorem, Soundness, Completeness, Decidability, Monotonicity, Abduction and Inductive reasoning, Modal logics and possible worlds, Dealing with change. \nInference and Resolution for Problem Solving: Introduction, Resolution in prepositional logic: Applications of Resolution, Resolution in Predicate Logic, Normal forms for predicate logic, Skolemization, Resolution Algorithms, Resolution for problem solving,\nSelf-learning topics: Truth Tables: Not, And, Or, Implies, if, Complex Truth Tables, Tautology, Equivalence",
+					"duration": 8,
+					"level": "Advanced"
+				},
+				{
+					"name": "Introduction to Machine Learning",
+					"links": [],
+					"description": "Introduction, Training Rote Learning, Learning Concepts, General-to-Specific Ordering, Version Spaces, Candidate Elimination, Inductive Bias, Decision-Tree Induction, The Problem of Overfitting, The Nearest Neighbor Algorithm, Backpropagation algorithms, Reinforcement Learning. \nNeural Networks: Introduction, Neurons, Perceptrons, Multilayer Neural Networks, Recurrent Networks, Unsupervised Learning Networks, Evolving Neural Networks.\nSelf-learning topics: Supervised Learning, Unsupervised Learning",
+					"duration": 8,
+					"level": "Advanced"
+				},
+				{
+					"name": "Probabilistic Reasoning and Bayesian Belief Networks",
+					"links": [],
+					"description": "Introduction, Probabilistic Reasoning, Joint Probability Distributions, Bayes’ Theorem, Simple Bayesian Concept Learning, Bayesian Belief Networks, The Noisy-V Function, Bayes’ Optimal Classifier, The Naïve Bayes Classifier \nSelf-learning topics: Collaborative Filtering",
+					"duration": 8,
+					"level": "Advanced"
+				}
+			]
+		},
+		{
+			"name": "Embedded Systems and IoT",
+			"links": [],
+			"credits": 3,
+			"objectives": "Artificial Intelligence and Machine Learning Objectives",
+			"outcomes": "Artificial Intelligence and Machine Learning Outcomes",
+			"chapters": [
+				{
+					"name": "Embedded Computing",
+					"links": [],
+					"description": "Introduction, Complex systems and microprocessors, Embedding computers, Characteristics of embedded computing applications, Why use microprocessors, Challenges in embedded computing system design, Performance of embedded computing systems. The embedded system design process: Requirements, Specification, Architecture design, Designing hardware and software components, System integration.",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "The 8051 Microcontrollers",
+					"links": [],
+					"description": "Microcontrollers and embedded processors, Overview of the 8051 family. 8051 Programming in C: Data types and time delay in 8051 C, I/O programming in 8051 C, Logic operations in 8051 C, Data conversion programs in 8051 C.",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "Programming timers",
+					"links": [],
+					"description": "Programming timers 0 and 1 in 8051 C, Basics of serial communication, Serial port programming in C, LCD interfacing, DAC interfacing, and Sensor interfacing.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "Introduction to Internet of Things",
+					"links": [],
+					"description": "Introduction, Definition and Characteristics of IoT, Physical design of IoT, Things in IoT, IoT Protocols, Logical Design of IoT, IoT functional blocks, IoT Communication Models, IoT Communication APIs, IoT Enabling Technologies, IoT levels and Deployment Templates. Domain Specific IoTs: Introduction, Home Automation, Environment.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "IoT Physical Devices and Endpoints",
+					"links": [],
+					"description": "What is an IoT Device, Basic building blocks of an IoT Device, Exemplary Device: Raspberry Pi, About the board, Linux on Raspberry Pi, Raspberry Pi interfaces, Programming Raspberry Pi with Python, Other IoT Devices.",
+					"duration": 8,
+					"level": "Advanced"
+				}
+			]
+		},
+		{
+			"name": "DATA STRUCTURES WITH C",
+			"links": [
+				"NPTELcourse link : https://nptel.ac.in/courses/106102064/",
+				"SWAYAM course link: https://swayam.gov.in/course/1407-programming-and-data-structures edx",
+				"Course link: https://www.edx.org/course/data-structures-fundamentals"
+			],
+			"objectives": "1. To learn the fundamentals of data structure and realize their importance in designing variety of applications. \n2.To illustrate the implementation of data structures such as stack, queue and linked list and to apply tem for the given problem. \n3To introduce non linear data structures like Binary Tree, Heap, AVL tree and their applications and also to provide insight of advanced searching techniques like Hashing. \n4.To create and use appropriate data structures for solving real life problems.",
+			"outcomes": "1. Explore the fundamental concepts of various data structures. \n2. Analyze and represent various data structures. \n3. Design algorithms for different data structures like Stack, Queue, List, Tree and Hashing. \n4. Develop programs with suitable data structures based on requirements of real world applications.",
+			"credits": 3,
+			"level": "Intermediate",
+			"chapters": [
+				{
+					"name": "Pointers, Structures",
+					"links": [],
+					"description": "Introduction to Pointers, Pointers and Arrays, Pointers to Pointers, Pointers to functions, Dynamic memory management in C (malloc(), calloc(), free() and realloc() functions). Introduction to Structures, Declaration, Initialization, Accessing Structures, Internal implementation of Structures, Union and its Definition. \nSelf-learning topics :Enumerations.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "Files, Linked lists",
+					"links": [],
+					"description": "Files in C: Text input output with respect to files in C, Basic file handling functions in C. \nGeneral linear lists: Basic operations, Implementation, List ADT. Complex implementations: circular linked lists, doubly linked lists.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "Stacks & Queues",
+					"links": [],
+					"description": "Stacks:Basic Stack operations, Stack ADT,Stack linked list Implementation,Stack applications:Conversion of Expression (Infix to Postfix), Evaluation of Expressions. Queues: Queues, Queue ADT, Circular Queues Linked list design, Queue applications. \nSelf-learning topics: Implementation of stacks and queues using arrays",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "Trees",
+					"links": [],
+					"description": "Basictree concepts, Binary trees, Binary search tree ADT, general trees, Binary search tree (BST) concept, BST operations, BST Applications, AVL trees basic concepts.",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "Heaps and Hashing",
+					"links": [],
+					"description": "Heap: Basic concepts, Heap implementation, Heap ADT, Heap applications. \nHashing: Basic concept, Hashing methods, collision resolution.",
+					"duration": 8,
+					"level": "Advanced"
+				}
+			]
+		},
+		{
+			"name": "Object Oriented Programming with Java",
+			"links": [],
+			"objectives": "1. Understand the fundamentals of object-oriented programming in Java. \n2. Demonstrate the features of object-oriented programming such as encapsulation, inheritance and polymorphism to design and develop programs in Java. \n3. Understand exception handling mechanism supported in Java to handle run time errors. \n4. Understand the concept of packages and interfaces in Java. \n5. To introduce the design of Graphical User Interface (GUI) programming through Java Swing.'outcomes': 1. Identify classes, objects, members of a class and relationships among them needed for a specific problem \n2. Write Java application programs using OOP principles and proper program structuring \n3. Demonstrate the concepts of polymorphism and inheritance. \n4. Write Java programs to implement error handling techniques using exception handling. \n5. Create and design GUI using Java Swing.",
+			"credits": 3,
+			"chapters": [
+				{
+					"name": "OOP Paradigm, Java basics and Classes and Objects",
+					"links": [],
+					"description": "The key attributes of object-oriented programming.\nJava basics: The Java language, JDK, arrays, multidimensional arrays, alternative array declaration, assigning array references, using the length member, the for-each loop, Strings, using the command line arguments.\nIntroducing classes and objects: Class fundamentals, how objects are created, reference variables and assignment.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "Methods and classes",
+					"links": [],
+					"description": "Methods, returning from a method, returning a value, using parameters, constructors, parameterized constructors, the new operator revisited, garbage collection and finalizers, this keyword. controlling access to class members, pass objects to methods, argument passing, returning objects, method overloading, recursion, static, nested and inner classes, varargs.",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "Inheritance and Interfaces",
+					"links": [],
+					"description": "Inheritance: Inheritance basics, member access and inheritance, constructors and inheritance, using super, multilevel hierarchy, when are constructors executed, superclass reference and subclass objects, method overriding, polymorphism, using abstract classes, using final, the Object class.    \nInterfaces: interface fundamentals, creating, implementing and using interfaces, implementing multiple interfaces, constants in interfaces, extending interfaces and nested interfaces.",
+					"duration": 8,
+					"level": "Basic"
+				},
+				{
+					"name": "Packages, Exception handling and String Handling",
+					"links": [],
+					"description": "Packages: Package fundamentals, packages and member access, importing packages, static import.\nException handling: the exception hierarchy, exception handling fundamentals, uncaught exceptions, handle errors gracefully, multiple catch, catching subclass exceptions, nested try, throwing exception, throwable, using finally and throws, built-in exceptions, new exception features in JDK7, creating exception subclasses.\nString Handling: String fundamentals, constructors, String related language features, length(), obtaining characters within a String, String comparison, indexOf() and lastIndexOf(), obtaining a modified String, Changing Case, StringBuffer and StringBuilder.",
+					"duration": 8,
+					"level": "Intermediate"
+				},
+				{
+					"name": "Swing fundamentals and Swing Controls",
+					"links": [],
+					"description": "Swing fundamentals: origins and design philosophy, components and containers, layout managers, event handling, push button, JTextField, anonymous inner classes.\nSwing Controls: JLabel and ImageIcon, Swing Buttons, Trees.",
+					"duration": 8,
+					"level": "Intermediate"
+				}
+			]
+		}
+	]
+}

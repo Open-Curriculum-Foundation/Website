@@ -1,0 +1,83 @@
+{
+	"subjects": [
+		{
+			"name": "Blockchain",
+			"links": [
+				"https://www.youtube.com/watch?v=M576WGiDBdQ",
+				"https://www.youtube.com/watch?v=coQ5dg8wM2o"
+			],
+			"chapters": [
+				{
+					"name": "Solidity",
+					"links": [
+						"https://www.youtube.com/watch?v=ipwxYa-F1uY",
+						"https://www.youtube.com/watch?v=kdvVwGrV7ec"
+					],
+					"description": "Introduction to Solidity, what is solidity?, where is solidity used?"
+				}
+			]
+		},
+		{
+			"name": "Data Science",
+			"links": [],
+			"chapters": [
+				{
+					"name": "Introduction Big data overview",
+					"links": [],
+					"description": "State of the practice in Analytics, Key role for the new big data ecosystem, Examples of big data analytics, the five steps of data science, data science life cycle"
+				},
+				{
+					"name": "Statistical analysis",
+					"links": [],
+					"description": " What are statistics, how do we obtain sample data, statistics measure, Point estimates,sampling distributions, Confidence intervals, exploratory data analysis, statistical methods for evaluation"
+				},
+				{
+					"name": "Analytical theory and methods 1",
+					"links": [],
+					"description": "Overview of clustering, K means, additional algorithms, Linear regression, Logistic regression, Reasons to choose and cautions, Addition regression models."
+				},
+				{
+					"name": "Analytical theory and methods 2",
+					"links": [],
+					"description": "Overview of time series analysis, ARIMA model, Text analysis steps, A text analysis example, Collecting raw text, Representing text, Term frequency, determining sentiments."
+				},
+				{
+					"name": "Fundamentals of R Programming",
+					"links": [],
+					"description": "Introduction to R studio, Basics of R programming, Math Variables  and Strings, Vectors and Factors, Vector Operations, Reading CSV, Excel, and Built-in Datasets, Reading Text (.txt) files in R, Writing and Saving to files in R, String Operations in R, The Date Format in R, Regular Expressions in R, Packages and libraries, External packages, CRAN, Downloading and installation of desired packages from CRAN."
+				}
+			]
+		},
+		{
+			"name": "Robotics Process Automation",
+			"links": [],
+			"chapters": [
+				{
+					"name": "PROGRAMMING BASICS & RECAP",
+					"links": [],
+					"description": "Programming Concepts Basics , Understanding the application , Basic Web Concepts ,Protocols ,Email Clients , Data Structures , Data Tables , Algorithms , Software Processes - Software Design - Scripting - .Net Framework - .Net Fundamentals , XML , Control structures and functions , XML , HTML , CSS , Variables & Arguments"
+				},
+				{
+					"name": "RPA CONCEPTS",
+					"links": [],
+					"description": "RPA Basics , History of Automation , What is RPA , RPA vs Automation , Processes & Flowcharts , Programming Constructs in RPA , What Processes can be Automated , Types of Bots - Workloads which can be automated - RPA Advanced Concepts , Standardization of processes , RPA Developemt methodologies , Difference from SDLC , Robotic control flow architecture , RPA business case , RPA Team , Proccess Design Document/Solution Design Document - Industries best suited for RPA , Risks & Challenges with RPA , RPA and emerging ecosystem."
+				},
+				{
+					"name": "RPA TOOL INTRODUCTION & BASICS",
+					"links": [],
+					"description": "Introduction to RPA Tool , The User Interface , Variables , Managing Variables , Naming Best Practices  The Variables Panel, Generic Value Variables , Text Variables ,True or False Variables - Number Variables - Array Variables - Date and Time Variables , Data Table Variables , Managing Arguments , Naming Best Practices ,The Arguments Panel , Using Arguments , About Imported Namespaces , Importing New Namespaces, Control Flow - Control Flow Introduction - If Else Statements , Loops , Advanced Control Flow , Sequences , Flowcharts , About Control Flow , Control Flow Activities ,The Assign Activity ,The Delay Activity , The Do While Activity , The If Activity - The Switch Activity - The While Activity , The For Each Activity , The Break Activity , Data Manipulation , Data Manipulation Introduction , Scalar variables, collections and Tables , Text Manipulation , Data Manipulation , Gathering and Assembling Data"
+				},
+				{
+					"name": "ADVANCED AUTOMATION CONCEPTS AND TECHNIQUES",
+					"links": [],
+					"description": "Recording and Advanced UI Interaction , Recording Introduction , Basic and Desktop Recording , Web Recording ,Input/Output Methods ,Screen Scraping , Data Scraping , Scraping advanced techniques - Selectors - Selectors - Defining and Assessing Selectors , Customization , Debugging , Dynamic Selectors , Partial Selectors , RPA Challenge , Image, Text & Advanced Citrix Automation - Introduction to Image & Text Automation , Image based automation , Keyboard based automation , Information Retrieval , Advanced Citrix Automation challenges , Best Practices , Using tab for Images , Starting Apps , Excel Data Tables & PDF , Data Tables in RPA , Excel and Data Table basics , Data Manipulation in excel , Extracting Data from PDF , Extracting a single piece of data ,Anchors , Using anchors in PDF."
+				},
+				{
+					"name": "EMAIL AUTOMATION & EXCEPTIONAL HANDLING",
+					"links": [],
+					"description": "Email Automation , Email Automation , Incoming Email automation , Sending Email automation ,Debugging and Exception Handling , Debugging Tools , Strategies for solving issues , Catching errors."
+				}
+			]
+		}
+	]
+}

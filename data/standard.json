@@ -1,0 +1,19 @@
+{
+	"Information Science": [
+		"Programming Techniques",
+		"Network Programming",
+		"Operating System Concepts"
+	],
+	"Electronics and Communication": [
+		"Microcontrollers",
+		"VLSI Design",
+		"Analog and Digital",
+		"ITDC"
+	],
+	"Computer Science": [
+		"Programmin in C",
+		"Computer Networks",
+		"Operation System Concepts",
+		"DBMS"
+	]
+}

@@ -1,0 +1,66 @@
+{
+	"subjects": [
+		{
+			"name": "CMOS VLSI Design",
+			"links": [],
+			"chapters": [
+				{
+					"name": "MOS Transistor Theory",
+					"links": [],
+					"description": "Introduction, ideal I-V characteristics, long-channel I-V characteristics, C- V Characteristics; simple MOS capacitance models, detailed MOS gate capacitance model, detailed MOS diffusion capacitance model; non-ideal I-V effects: mobility degradation and velocity saturation, channel length modulation threshold voltage effects, leakage, DC transfer characteristics, beta ratio effects, noise margin. (conceptual overview with numerical problem solving for analysis) Case Study: C-V characterization, 2nd order effects, β effects."
+				},
+				{
+					"name": "Characterization & performance Estimation",
+					"links": [],
+					"description": " Definitions; RC delay model: effective resistance, gate and diffusion capacitance, equivalent RC circuits; linear delay model: logical effort, parasitic delay. Case Study: Design of gates for a specified delay, Elmore delay model analysis for basic gates, and simple circuits."
+				},
+				{
+					"name": "CMOS Fabrication and Layout",
+					"links": [],
+					"description": "CMOS fabrication and layout: layout design rules, gate layouts, stick diagrams; sheet resistance and area capacitance concepts, delay unit (conceptual overview with numerical problem solving for analysis). Case Study: Stick and layout diagrams for basic gates/SOP/POS equations; RC delay calculations from layout."
+				},
+				{
+					"name": "Combinational Circuit Design",
+					"links": [],
+					"description": "Introduction; circuit families: ratioed circuits: pseudonMOS, Cascode Voltage Switch Logic (CVSL), dynamic circuits, Domino logic, passtransistor circuits, Bi-CMOS circuits. Sequential MOS Logic Circuits: Introduction, behavior of bi-stable elements, SR latch circuits, clocked latch and flip flop circuits, CMOS D-latch and edge triggered flip-flop. Case Study: Designing of Logical Gates/Circuits, with Different CMOS Logic Structures."
+				},
+				{
+					"name": "CAD Systems and Algorithms",
+					"links": [],
+					"description": ": Introduction, CAD systems, switch level simulation, layout synthesis, layout analysis, timing and optimization, logic synthesis, test generation sequential machine optimizations. scheduling and binding, hardware/software co-design. Case Study: - Switch Level Simulation, K – L Partitioning Algorithm."
+				}
+			]
+		},
+		{
+			"name": "Information Theory and Digital Communication ",
+			"links": [],
+			"chapters": [
+				{
+					"name": "WAVEFORM CODING and SOURCE ENCODING",
+					"links": [],
+					"description": " Review of Sampling theory, Pulse Code Modulation, Quantization noise and SNR, Robust Quantization, DPCM, Delta Modulation, Adaptive Delta Modulation Properties of codes, Shannon’s encoding algorithm, Shannon-Fano, and Huffman’s coding algorithm."
+				},
+				{
+					"name": "Baseband Transmission and channel transmission",
+					"links": [],
+					"description": "Gram Schmidt orthogonalization, Properties of Line codes, Power Spectral Density of Uni-polar, Polar, Bipolar and Manchester RZ and NRZ, ISI in band limited channels, Zero-ISI condition- the Nyquist criterion, Solution for zero ISI, Raised cosine filters, Corelative Coding. Discrete Communication Channel, Mutual Information and its properties, Types of channels."
+				},
+				{
+					"name": "Linear Block codes,Binary Cyclic Codes and Convolutional Encoding",
+					"links": [],
+					"description": "Linear Block codes: Matrix Description of LBC, Encoding, Decoding and Syndrome circuits,   Error calculation. Binary Cyclic Codes: Properties, encoding using (n-k) shift registers, Syndrome calculation. Convolutional Encoding: Convolutional encoder representation in time and transform domain. Case Study: General form of decoder for cyclic codes, State Diagrams and Code tree for convolutional codes."
+				},
+				{
+					"name": "Digital Modulation Schemes ",
+					"links": [],
+					"description": "Geometric Representation of signals, Generation, Detection, Bit error rate of Coherent Binary PSK, Binary FSK. Introduction to MSK, QPSK and QAM."
+				},
+				{
+					"name": "spread sheet modulation",
+					"links": [],
+					"description": "Need for Spread Spectrum Modulation, PN sequence and its properties, Direct sequence SS system- DS/BPSK Transmitter & Receiver, processing gain, Jamming margin, Frequency hop SS system- FH-FSK transmitter and Receiver, Fast and slow hop.  Case Study: Code division multiple access, Multipath Suppression."
+				}
+			]
+		}
+	]
+}
