@@ -53,7 +53,7 @@ export default function Subject({ data: paramData }) {
 		if (paramData) return;
 		(async function () {
 			const res = await fetch(
-				`https://raw.githubusercontent.com/ItsDEFAULT/SIH/master/${domain}/${branch}`
+				`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/${domain}/${branch}`
 			);
 			const obj = await res.json();
 			let temp = null;

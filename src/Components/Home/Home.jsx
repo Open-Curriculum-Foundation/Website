@@ -11,7 +11,7 @@ export default function Home() {
 	useEffect(() => {
 		(async () => {
 			const res = await fetch(
-				"https://raw.githubusercontent.com/ItsDEFAULT/SIH/master/home.json"
+				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/home.json"
 			);
 			const data = await res.json();
 			setRecent(data.recent);

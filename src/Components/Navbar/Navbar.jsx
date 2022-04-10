@@ -10,7 +10,7 @@ const Navbar = () => {
 		<nav className="navbar navbar-expand-lg p-3 navbar-dark " id="nav">
 			<div className="container">
 				<a role="button" className="navbar-brand" onClick={() => navigate("/")}>
-					EduHub
+					Open Curriculum
 				</a>
 				<button
 					className="navbar-toggler"
@@ -85,7 +85,7 @@ const Navbar = () => {
 						<li role="button" className="nav-item">
 							<a
 								className="nav-link"
-								href="https://github.com/ItsDEFAULT/SIH#eduhub"
+								href="https://github.com/Open-Curriculum-Foundation/Website/blob/main/data/Readme.md#Open-Curriculum"
 								target="_blank"
 							>
 								Contribute

@@ -12,7 +12,7 @@ export default function Branch() {
 	React.useEffect(() => {
 		(async function () {
 			const res = await fetch(
-				`https://raw.githubusercontent.com/ItsDEFAULT/SIH/master/${domain}/${branch}.json`
+				`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/${domain}/${branch}.json`
 			);
 			const obj = await res.json();
 			setData(obj);

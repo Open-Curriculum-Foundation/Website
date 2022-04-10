@@ -8,7 +8,7 @@ export default function Standard() {
 	React.useEffect(() => {
 		(async function () {
 			let data = await fetch(
-				"https://raw.githubusercontent.com/ItsDEFAULT/SIH/master/standard.json"
+				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/standard.json"
 			);
 			data = await data.json();
 			setData(data);

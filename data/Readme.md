@@ -1,4 +1,4 @@
-# EduHub
+# Open-Curriculum
 
 ## How to contribute?
 
