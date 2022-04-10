@@ -1,0 +1,10 @@
+.branch-item {
+	padding: 1rem;
+	margin: 1rem;
+	cursor: pointer;
+	transition: 0.1s ease-in-out;
+}
+
+.branch-item:hover {
+	background-color: #ddd;
+}

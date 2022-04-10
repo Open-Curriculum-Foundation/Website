@@ -1,0 +1,11 @@
+.form-control:focus {
+	box-shadow: none !important;
+}
+
+#nav {
+	background-color: #0077b6;
+}
+
+.go {
+	width: 50%;
+}
