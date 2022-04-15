@@ -8,14 +8,32 @@
       "links": ["link1", "link2"],
       "description": "Learn some shit",
       "level": "Basic",
-      "topics": ["Intro to Solidity:1hr", "Appications of Solidity:30min"]
+      "topics": [
+        {
+          "name": "Intro to Solidity",
+          "duration": "1hr"
+        },
+        {
+          "name": "Appications of Solidity",
+          "duration": "30min"
+        }
+      ]
     },
     {
       "name": "Ethereum blockchain",
       "links": ["link1", "link2"],
       "description": "Learn some shit",
       "level": "Basic",
-      "topics": ["Intro to Ethereum:1hr", "Appications of Ethereum:30min"]
+      "topics": [
+        {
+          "name": "Intro to Solidity",
+          "duration": "1hr"
+        },
+        {
+          "name": "Appications of Solidity",
+          "duration": "30min"
+        }
+      ]
     }
   ]
 }
