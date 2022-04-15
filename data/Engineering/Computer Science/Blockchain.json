@@ -1,7 +1,7 @@
 {
   "links": ["link1", "link2"],
-  "objective": "Mukli muchkond kali",
-  "outcomes": "Get a job dude",
+  "objective": "Some objective",
+  "outcomes": "Learn Blockchain",
   "units": [
     {
       "name": "Solidity",
