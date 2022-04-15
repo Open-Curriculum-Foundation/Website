@@ -6,7 +6,7 @@
     {
       "name": "Solidity",
       "links": ["link1", "link2"],
-      "description": "Learn some shit",
+      "description": "Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.",
       "level": "Basic",
       "topics": [
         {
