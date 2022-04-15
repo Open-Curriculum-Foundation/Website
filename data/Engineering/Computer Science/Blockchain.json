@@ -22,7 +22,7 @@
     {
       "name": "Ethereum blockchain",
       "links": ["link1", "link2"],
-      "description": "Learn some shit",
+      "description": "Ethereum offers an extremely flexible platform on which to build decentralized applications using the native Solidity scripting language and Ethereum Virtual Machine. Decentralized application developers who deploy smart contracts on Ethereum benefit from the rich ecosystem of developer tooling and established best practices that have come with the maturity of the protocol.",
       "level": "Basic",
       "topics": [
         {
