@@ -72,6 +72,16 @@ const Navbar = () => {
 						>
 							<a className={`nav-link ${active === 3 && "active"}`}>Generate</a>
 						</li>
+						<li
+							role="button"
+							className="nav-item"
+							onClick={() => {
+								navigate("/about");
+								setActive(4);
+							}}
+						>
+							<a className={`nav-link ${active === 3 && "active"}`}>About</a>
+						</li>
 						{/* <li
               role="button"
               className="nav-item"
