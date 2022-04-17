@@ -35,7 +35,7 @@ export default function Subject({ data: paramData }) {
 		if (paramData) return;
 		(async function () {
 			const res = await fetch(
-				`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/modify-paths/data/${domain}/${branch}/${subject}.json`
+				`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/${domain}/${branch}/${subject}.json`
 			);
 			const obj = await res.json();
 			// console.log(obj);

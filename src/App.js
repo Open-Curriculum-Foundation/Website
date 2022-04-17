@@ -25,7 +25,7 @@ function App() {
 		ReactGA.initialize("G-H819E5MDX0");
 		(async function () {
 			const data = await fetch(
-				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/modify-paths/data/paths.json"
+				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/paths.json"
 			);
 			const obj = await data.json();
 			setData(obj);
