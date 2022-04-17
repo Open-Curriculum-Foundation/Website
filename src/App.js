@@ -25,12 +25,14 @@ function App() {
 		ReactGA.initialize("G-H819E5MDX0");
 		(async function () {
 			const data = await fetch(
-				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/paths.json"
+				"https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/modify-paths/data/paths.json"
 			);
 			const obj = await data.json();
 			setData(obj);
 		})();
 	}, []);
+
+	console.log(data);
 
 	return data ? (
 		<EduDomains.Provider value={{ data, setSubject }}>
@@ -41,8 +43,8 @@ function App() {
 					<Route path="/curricula" element={<Domains />} />
 					<Route path="/branch/:domain/:branch" element={<Branch />} />
 					<Route
-						path="/subject/:domain/:branch/:chapter"
-						element={<Subject data={subject} />}
+						path="/subject/:domain/:branch/:subject"
+						element={<Subject />}
 					/>
 					<Route
 						path="/subject/:domain/:branch"

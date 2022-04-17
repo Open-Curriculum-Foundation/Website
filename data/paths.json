@@ -1,5 +1,7 @@
 {
-	"Engineering": ["InformationScience", "ComputerScience", "Electronics and Communication"],
-	"Medical": ["Ayurveda","Homeopathic"],
-	"Common": ["General Subjects"]
+	"Engineering": {
+		"Computer Science":["Blockchain"],
+		"Information Science":[],
+		"Electronics and Communication":[]
+	}
 }

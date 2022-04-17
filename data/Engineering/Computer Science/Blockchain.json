@@ -1,0 +1,39 @@
+{
+  "links": ["link1", "link2"],
+  "objective": "Some objective",
+  "outcomes": "Learn Blockchain",
+  "units": [
+    {
+      "name": "Solidity",
+      "links": ["link1", "link2"],
+      "description": "Solidity is an object-oriented, high-level language for implementing smart contracts. Smart contracts are programs which govern the behaviour of accounts within the Ethereum state.",
+      "level": "Basic",
+      "topics": [
+        {
+          "name": "Intro to Solidity",
+          "duration": "1hr"
+        },
+        {
+          "name": "Appications of Solidity",
+          "duration": "30min"
+        }
+      ]
+    },
+    {
+      "name": "Ethereum blockchain",
+      "links": ["link1", "link2"],
+      "description": "Ethereum offers an extremely flexible platform on which to build decentralized applications using the native Solidity scripting language and Ethereum Virtual Machine. Decentralized application developers who deploy smart contracts on Ethereum benefit from the rich ecosystem of developer tooling and established best practices that have come with the maturity of the protocol.",
+      "level": "Basic",
+      "topics": [
+        {
+          "name": "Intro to Solidity",
+          "duration": "1hr"
+        },
+        {
+          "name": "Appications of Solidity",
+          "duration": "30min"
+        }
+      ]
+    }
+  ]
+}
