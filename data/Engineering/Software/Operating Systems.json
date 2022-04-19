@@ -12,8 +12,8 @@
         {
           "name": "",
           "duration": {
-            "lecture": "",
-            "Activity": ""
+            "lecture": 0,
+            "Activity": 0
           },
           "objectives": "",
           "outcomes": ""

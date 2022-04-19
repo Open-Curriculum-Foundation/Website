@@ -12,8 +12,8 @@
         {
           "name": "What is the internet?",
           "duration": {
-            "lecture": "35min",
-            "Activity": "0"
+            "lecture": 35,
+            "Activity": 0
           },
           "objectives": "To understand the basics of Computer networks and Internet",
           "outcomes": "You will understand the basics of Compute networks and Internet"
@@ -21,8 +21,8 @@
         {
           "name": "The Network Edge",
           "duration": {
-            "lecture": "40min",
-            "Activity": "0"
+            "lecture": 40,
+            "Activity": 0
           },
           "objectives": "To understand the basics of Network Edge",
           "outcomes": "You will understand the basics of Network Edge"
@@ -30,8 +30,8 @@
         {
           "name": "The Network Core",
           "duration": {
-            "lecture": "50min",
-            "Activity": "0"
+            "lecture": 50,
+            "Activity": 0
           },
           "objectives": "To understand the basics of Network Core",
           "outcomes": "You will understand the basics of Network Core"
@@ -39,8 +39,8 @@
         {
           "name": "Delay, Loss and Throughput in packet-switched networks",
           "duration": {
-            "lecture": "80min",
-            "Activity": "0"
+            "lecture": 80,
+            "Activity": 0
           },
           "objectives": "To understand the basics of Delay, Loss and Throughput in packet-switched networks",
           "outcomes": "You will understand the basics of Delay, Loss and Throughput in packet-switched networks"
@@ -48,8 +48,8 @@
         {
           "name": "Protocol layers and their service models",
           "duration": {
-            "lecture": "120",
-            "Activity": "0"
+            "lecture": 120,
+            "Activity": 0
           },
           "objectives": "To understand the basics of Protocol layers and their service models",
           "outcomes": "You will understand the basics of Protocol layers and their service models"
