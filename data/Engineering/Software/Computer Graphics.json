@@ -1,24 +1,24 @@
 {
-  "links": [],
-  "objective": "",
-  "outcomes": "",
-  "units": [
-    {
-      "name": "",
-      "links": [],
-      "description": "",
-      "level": "",
-      "topics": [
-        {
-          "name": "",
-          "duration": {
-            "lecture": 0,
-            "Activity": 0
-          },
-          "objectives": "",
-          "outcomes": ""
-        }
-      ]
-    }
-  ]
+	"links": [],
+	"objective": "",
+	"outcomes": "",
+	"units": [
+		{
+			"name": "",
+			"links": [],
+
+			"level": "",
+			"topics": [
+				{
+					"name": "",
+					"duration": {
+						"lecture": 0,
+						"Activity": 0
+					},
+					"objectives": "",
+					"outcomes": ""
+				}
+			]
+		}
+	]
 }

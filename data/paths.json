@@ -1,7 +1,40 @@
 {
 	"Engineering": {
-		"Computer Science":["Blockchain"],
-		"Information Science":["Computer Networks"],
-		"Electronics and Communication":[]
+		"Software": [
+			"Algorithms",
+			"Artificial Intelligence",
+			"Artificial Neural Network",
+			"Big Data",
+			"Blockchain",
+			"Cloud Computing",
+			"Compiler Design",
+			"Computer Architecture",
+			"Computer Graphics",
+			"Computer Networks",
+			"Cyber Security",
+			"Data Science",
+			"Data Structures",
+			"DBMS",
+			"Digital Image Processing",
+			"Ethical Hacking",
+			"Information Security",
+			"IOT",
+			"OOMD",
+			"Operating Systems",
+			"RPA",
+			"Soft Computing",
+			"Software Engineering",
+			"Theory Of Computations"
+		],
+		"Programming": [
+			"C#",
+			"C++",
+			"C",
+			"Java",
+			"Javascript",
+			"Kotlin",
+			"Python",
+			"Rust"
+		]
 	}
 }
