@@ -9,17 +9,17 @@ export default function Branch() {
 	const navigate = useNavigate();
 	const { setSubject, data } = React.useContext(EduDomains);
 
-	React.useEffect(() => {
-		(function () {
-			data[domain][branch].map(async (sub) => {
-				let res = await fetch(
-					`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/${domain}/${branch}/${sub}.json`
-				);
-				let obj = await res.json();
-				setSubs((old) => [...old, obj]);
-			});
-		})();
-	}, []);
+	// React.useEffect(() => {
+	// 	(function () {
+	// 		data[domain][branch].map(async (sub) => {
+	// 			let res = await fetch(
+	// 				`https://raw.githubusercontent.com/Open-Curriculum-Foundation/Website/main/data/${domain}/${branch}/${sub}.json`
+	// 			);
+	// 			let obj = await res.json();
+	// 			setSubs((old) => [...old, obj]);
+	// 		});
+	// 	})();
+	// }, []);
 
 	// console.log(data[domain][branch]);
 	console.log(subs);
