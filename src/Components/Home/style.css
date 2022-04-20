@@ -13,12 +13,11 @@
 
 .home-card {
 	width: 40vw;
-	height: 40vh;
+	height: 80vh;
 	overflow-y: scroll;
 	overflow-x: hidden;
 	display: flex;
 	padding-top: 1rem;
-	
 	transition: 0.1s ease-in-out;
 	animation: zoom 0.5s ease-in-out;
 	border-radius: 10px !important;
