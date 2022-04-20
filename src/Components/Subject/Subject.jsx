@@ -85,18 +85,11 @@ export default function Subject({ data: paramData }) {
 						<div className="card-body ">
 							<h5 className="card-title">{subject}</h5>
 							<hr />
-							<h3>Objective</h3>
-							<p>{data?.objective}</p>
-							<hr />
-							<h3>Outcome</h3>
-							<p>{data?.outcomes}</p>
-							<hr />
-							{/* <h3>Credits: {data?.credits}</h3> */}
 							{data.units?.map((chap, index) => (
 								<div key={index}>
 									<div className="card-text d-flex flex-row ">
 										<div className="row mt-5">
-											<div className="col-md-9">
+											<div className="col-md-12">
 												<div className="form-check">
 													<input
 														className="form-check-input"
@@ -110,21 +103,41 @@ export default function Subject({ data: paramData }) {
 												</div>
 											</div>
 											<div className="col-md-12 ms-4 mt-3">
-												<h5>Description : {chap.description}</h5>
-											</div>
-											<div className="col-md-12 ms-4 mt-3">
 												<h5>Topics:</h5>
 
 												{chap.topics.map((topic) => (
-													<div className="form-check">
-														<input
-															className="form-check-input"
-															type="checkbox"
-															id="flexCheckDefault"
-															onChange={(e) => toggleTopic(e, chap, topic)}
-														/>
-														{topic.name} : {topic.duration}
-													</div>
+													<>
+														<div className="form-check">
+															<input
+																className="form-check-input"
+																type="checkbox"
+																id="flexCheckDefault"
+																onChange={(e) => toggleTopic(e, chap, topic)}
+															/>
+															<p>{topic.name}</p>
+														</div>
+														<div>
+															<p className="ms-4">
+																Objectives: {topic.objectives}
+															</p>
+															<p className="ms-4">Outcomes: {topic.outcomes}</p>
+														</div>
+														<div className="d-flex">
+															<p className="ms-4">Duration:</p>
+															<p className="ms-2">
+																Lecture= {topic.duration?.lecture}
+															</p>
+															<p className="ms-2">
+																Activity= {topic.duration?.Activity}
+															</p>
+															<p className="ms-2">
+																Total=
+																{topic.duration?.lecture +
+																	topic.duration?.Activity}
+																min
+															</p>
+														</div>
+													</>
 												))}
 											</div>
 										</div>

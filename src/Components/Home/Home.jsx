@@ -22,38 +22,7 @@ export default function Home() {
 
 	return (
 		<div className="container homeMain mt-3">
-			<div className="card home-card m-2 d-flex">
-				<h2 className="text-center">
-					<i className="fa-solid fa-chart-line"></i> &nbsp; Trending
-				</h2>
-				<hr />
-				{trending &&
-					Object.keys(trending).map((key, idx) => (
-						<div className="text-center">
-							<span className="d-flex justify-content-center align-items-center">
-								{idx === 0 && (
-									<i className="fa-solid fa-screwdriver-wrench text-primary"></i>
-								)}
-								{idx === 1 && (
-									<i className="fa-solid fa-user-doctor text-primary"></i>
-								)}
-								&emsp;
-								<h2>{key}</h2>
-							</span>
-							{trending[key].map((sub) => (
-								<p
-									key={sub}
-									className="branch-item"
-									onClick={() => navigate(`/subject/${sub.path}/${sub.name}`)}
-								>
-									{sub.name}
-								</p>
-							))}
-							<hr />
-						</div>
-					))}
-			</div>
-			<div className="col">
+			<div className="row">
 				<div className="card home-card m-2">
 					<h2 className="text-center">
 						<i className="fa-solid fa-hourglass-start"></i> &nbsp; Recently
