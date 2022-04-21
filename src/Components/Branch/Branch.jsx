@@ -34,6 +34,9 @@ export default function Branch() {
 						key={idx}
 						onClick={() => {
 							setSubject(sub);
+							if(branch == "Programming")
+							navigate(`/program/${sub}`);
+							else 
 							navigate(`/subject/${domain}/${branch}/${sub}`);
 						}}
 						className="branch-item"

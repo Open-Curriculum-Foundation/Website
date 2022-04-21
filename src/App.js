@@ -11,6 +11,7 @@ import Standard from "./Components/Standard/Standard";
 import ReactGA from "react-ga";
 import Generate from "./Components/Generate/Generate";
 import About from "./Components/About/About";
+import Question from "./Components/Programming/Question";
 
 export const EduDomains = React.createContext(null);
 
@@ -57,6 +58,7 @@ function App() {
 					<Route path="/standard" element={<Standard />} />
 					<Route path="/generate" element={<Generate />} />
 					<Route path="/about" element={<About />} />
+					<Route path="/program/:language" element={<Question />} />
 				</Routes>
 			</div>
 		</EduDomains.Provider>
