@@ -1,24 +1,19 @@
-{
-	"links": [],
-	"objective": "",
-	"outcomes": "",
-	"units": [
-		{
-			"name": "",
-			"links": [],
-
-			"level": "",
-			"topics": [
-				{
-					"name": "",
-					"duration": {
-						"lecture": 0,
-						"Activity": 0
-					},
-					"objectives": "",
-					"outcomes": ""
-				}
-			]
-		}
-	]
-}
+[
+	{
+		"name": "",
+		"description": "",
+		"level": "",
+		"objectives": "",
+		"outcomes": "",
+		"input": "",
+		"output": "",
+		"testcases": [
+			{
+				"input": "",
+				"output": "",
+				"explaination": ""
+			}
+		],
+		"resources": [""]
+	}
+]
