@@ -51,12 +51,12 @@ function App() {
 						path="/subject/:domain/:branch"
 						element={<Subject data={subject} />}
 					/>
-					<Route
+					{/* <Route
 						path="/saved"
 						element={<Saved setHide={setHideForPrint} hide={hideForPrint} />}
-					/>
+					/> */}
 					<Route path="/standard" element={<Standard />} />
-					<Route path="/generate" element={<Generate />} />
+					{/* <Route path="/generate" element={<Generate />} /> */}
 					<Route path="/about" element={<About />} />
 					<Route path="/program/:language" element={<Question />} />
 				</Routes>

@@ -4,6 +4,20 @@ export default function About() {
 	return (
 		<div className="container m-5 p-5">
 			<div className="card m-3 p-5">
+				<h3>Video Reference</h3>
+				<center>
+					<iframe
+						width="560"
+						height="315"
+						src="https://www.youtube.com/embed/pGz1mg_t_M0"
+						title="YouTube video player"
+						frameborder="0"
+						allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+						allowfullscreen
+					></iframe>
+				</center>
+			</div>
+			<div className="card m-3 p-5">
 				<h3>About Open Curriculum</h3>
 				Open curriculum software lets anyone contribute to the curriculum. To
 				have an open curriculum we use GitHub. We have a well equipped team of
